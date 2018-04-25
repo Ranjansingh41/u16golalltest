@@ -1,0 +1,21 @@
+jobs:
+  - name: u16golalltesting
+    type: runSh
+    steps:
+      - TASK:
+          runtime:
+            options:
+              imageName: "drydock/u16golall"
+              imageTag: master
+          script:
+             - gvm list
+             - gvm use 1.4
+             - go version
+             - gvm use 1.7.6
+             - go version
+             - gvm use 1.8.7
+             - go version
+             - gvm use 1.9.5
+             - go version
+             - gvm use 1.10.1
+             - go version
