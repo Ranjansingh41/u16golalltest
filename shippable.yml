@@ -6,7 +6,7 @@ jobs:
           runtime:
             options:
               imageName: "drydock/u16golall"
-              imageTag: master
+              imageTag: v6.4.4
           script:
              - source $HOME/.gvm/scripts/gvm
              - PATH="$PATH:/root/.gvm/gos/go1.9.5/bin"
@@ -15,7 +15,7 @@ jobs:
           runtime:
             options:
               imageName: "drydock/u16golall"
-              imageTag: master
+              imageTag: v6.4.4
           script:
              - source $HOME/.gvm/scripts/gvm
              - PATH="$PATH:/root/.gvm/gos/go1.7.6/bin"
@@ -24,7 +24,7 @@ jobs:
          runtime:
            options:
              imageName: "drydock/u16golall"
-             imageTag: master
+             imageTag: v6.4.4
          script:
             - source $HOME/.gvm/scripts/gvm
             - PATH="$PATH:/root/.gvm/gos/go1.8.7/bin"
@@ -33,7 +33,7 @@ jobs:
          runtime:
            options:
              imageName: "drydock/u16golall"
-             imageTag: master
+             imageTag: v6.4.4
          script:
             - source $HOME/.gvm/scripts/gvm
             - PATH="$PATH:/root/.gvm/gos/go1.10.1/bin"
